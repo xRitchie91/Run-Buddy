@@ -10,14 +10,14 @@ body {
 }
 
 
-/* HEADER / NAV BAR START */
+/* HEADER / NAV BAR STYLES START */
 
 header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 35px;
-  background-color: #39a6b2;
 }
 
 header h1 {
@@ -37,7 +37,6 @@ header nav {
 }
 
 header nav ul {
-  display: inline;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -51,17 +50,17 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
-/* HEADER / NAVBAR END */
+/* HEADER / NAVBAR STYLES END */
 
 
 
-/* FOOTER START */
+/* FOOTER STYLES START */
 footer {
+  background: #fce138;
+  padding: 40px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: #fce138;
-  padding: 40px 35px;
   width: 100%;
 }
 
@@ -79,30 +78,45 @@ footer div {
 footer a {
   color: #024e76;
 }
-/* END FOOTER */
+/* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
 }
 
-/* HERO START */
+/* HERO STYLES START */
 .hero {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
-  width: 40%;
-  margin: 3.5%;
   padding: 20px;
   color: #024e76;
+  width: 40%;
+  margin: 3.5%;
 }
 
 .hero-form h3 {
@@ -134,34 +148,18 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
-
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  margin: 3.5%;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1.3;
-}
-
-.hero-cta h2 {
-  font-style: italic;
-  font-size: 55px;
-  color: #fce138
-}
-
 /* HERO STYLES END */
 
 
-/* SECTION TITLE START */
+/* SECTION TITLE STYLES START */
 .section-title {
   font-size: 55px;
+  border-bottom: 3px solid;
+  color: #024e76;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-  border-bottom: 3px solid;
-  color: #024e76;
 }
 
 .primary-border {
@@ -171,9 +169,10 @@ section {
 .secondary-border {
   border-color: #39a6b2;
 }
-/* SECTION TITLE END */
+/* SECTION TITLE STYLES END */
 
-/* WHAT WE DO */
+/* WHAT WE DO STYLES */
+
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -182,54 +181,29 @@ section {
   font-size: 20px;
   text-align: center;
 }
-/* WHAT YOU DO END */
+/* WHAT YOU DO STYLES END */
 
 
-/* WHAT YOU DO START */
+/* WHAT YOU DO STYLES START */
 .steps { 
   background: #fce138;
-}
-
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-} 
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
-  flex: 1 30%;
-}
-
-.steps span {
-  font-size: 38px;
-}
-
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
-}
-
-.step-text h4 {
-  font-size: 26px;
-  line-height: 1.5;
-  color: #024e76;
 }
 
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px soid #39a6b2;
+  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step h3 {
+  color: #024e76;
+  font-size: 46px;
+  flex: 1 30%;
 }
 
 .step-info {
@@ -244,59 +218,69 @@ section {
   margin-right: 20px;
 }
 
+.step-img img {
+  max-width: 100%;
+}
+
 .step-text {
   flex: 12;
 }
 
-.step-img img {
-  max-width: 100%
+.step-text p {
+  color: #39a6b2;
+  font-size: 18px;
 }
-/* WHAT YOU DO END */
+
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
+/* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
 .trainers {
-
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .trainer {
-  width: 900px;
-  margin: 0 auto 30px auto;
+  margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
-  overflow: auto;
 }
 
 .trainer img {
-  width: 35%;
-  float: left;
+  width: 100%;
 }
 
 .trainer-bio {
-  padding: 35px;
-  float: left;
-  width: 65%;
+  padding: 25px;
+  line-height: 1.3;
 }
 
 .trainer-bio h3 {
-  font-size: 32px;
-  margin-bottom: 8px;
+  font-size: 28px;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
-  font-size: 26px;
-  margin-bottom: 25px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .trainer-bio p {
   font-size: 17px;
-  line-height: 1.3;
 }
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
-  
   background: #024e76;
 }
 
@@ -304,17 +288,22 @@ section {
   color: #fce138;
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info > * {
+  flex: 1;
+  margin: 15px;
+}
+
 .contact-info iframe {
-  width: 400px;
-height: 400px;
+  height: 400px;
 }
 
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
   color: white;
 }
 
@@ -326,13 +315,36 @@ height: 400px;
 .contact-info p, .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  border: none;
+  background: #fce138;
+  color: #024e76;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
 }
 
 .contact-info a {
   color: #fce138;
 }
+
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
