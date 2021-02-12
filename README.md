@@ -8,13 +8,11 @@ A website that offers fitness services.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://xritchie91.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Ritchie
 
-<<<<<<< HEAD
 # Run Buddy Inc.
-=======
+
 ### &copy;2019 Run Buddy, Inc 
->>>>>>> b5c8359179ea5a24b7e84ec6c13fd163067296cc
