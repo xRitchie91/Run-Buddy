@@ -44,7 +44,6 @@ header h1 {
 }
 
 header a {
-  text-decoration: none;
   color: #fce138;
 }
 
@@ -65,6 +64,7 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 /* HEADER / NAVBAR STYLES END */
@@ -73,7 +73,7 @@ header nav ul li a {
 
 /* FOOTER STYLES START */
 footer {
-  background: #fce138;
+  background: navajowhite;
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -415,7 +415,7 @@ section {
     justify-content: center;
   }
 
-  header nav ul li a: {
+  header nav ul li a {
     font-size: 20px;
   }
 
@@ -450,7 +450,6 @@ section {
   .contact-info iframe{
     flex: 1 100%;
   }
-}
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
