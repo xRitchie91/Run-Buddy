@@ -13,7 +13,6 @@ https://lernantino.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by Ritchie
 
-<<<<<<< HEAD
 # Run Buddy Inc.
 =======
 ### &copy;2019 Run Buddy, Inc 
