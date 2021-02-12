@@ -14,6 +14,5 @@ https://lernantino.github.io/run-buddy/
 Made with ❤️ by Ritchie
 
 # Run Buddy Inc.
-=======
+
 ### &copy;2019 Run Buddy, Inc 
->>>>>>> b5c8359179ea5a24b7e84ec6c13fd163067296cc
